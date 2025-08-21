@@ -4,7 +4,9 @@
   "description": "The Astron GPT AI Assistant for Discord and Web integration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pr": "node scripts/pr.mjs",
+    "dev": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/astron-collection/astron-gpt/issues"
   },
-  "homepage": "https://github.com/astron-collection/astron-gpt#readme"
+  "homepage": "https://github.com/astron-collection/astron-gpt#readme",
+  "dependencies": {
+    "discojs": "^2.3.1",
+    "discord.js": "^14.22.0",
+    "dotenv": "^17.2.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "url": "^0.11.4"
+  }
 }
