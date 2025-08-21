@@ -1,0 +1,21 @@
+{
+  "name": "astron-gpt",
+  "version": "1.0.0",
+  "description": "The Astron GPT AI Assistant for Discord and Web integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astron-collection/astron-gpt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/astron-collection/astron-gpt/issues"
+  },
+  "homepage": "https://github.com/astron-collection/astron-gpt#readme"
+}
